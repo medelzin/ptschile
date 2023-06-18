@@ -1,0 +1,124 @@
+body{
+    background: #1C1C1C;
+    color: #FFFFFF;
+    margin:0 auto;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 61px;    
+}
+
+.botao{
+    color: white;
+    background-color: blue;
+    width: 316px;
+    height: 68px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    margin:25px;
+}
+
+.dimg{
+    width: 602px;
+    height: 339px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+main{
+    text-align: left;
+    font-size: 30px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.imgs{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.botao:hover{
+    color: black;
+    background-color: white;
+}
+
+button{
+    cursor:pointer;
+}
+
+#modoClaro{
+    background-color: transparent;
+    height:40px;
+    border:3px solid black;
+    border-radius: 12px;
+    align-self: center;
+    color:grey;
+}
+
+#modoClaro:hover{
+    background-color:red;
+    color:white;
+}
+
+.modoClaro{
+    background-color : #fff;
+    color: #000;
+}
+
+.modoEscuro{
+    background: #1C1C1C;
+    color: #FFFFFF;
+}
+
+@media (max-width: 400px) {
+    .dimg{
+        width: 301px;
+        height: 169px;
+    }
+    h1{
+        font-size:40px;
+    }
+    footer{
+        margin-top:30px;
+    }
+    header{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+    .botao{
+        width: 100px;
+        height: 40px;
+        border-radius: 15px;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .botoes{
+        align-self:end;
+    }
+    p{
+        font-size:20px;
+        max-width:300px;
+    }
+    .imgs{
+        display:inline;
+        justify-content:center;
+    }
+    body{
+        margin-left:10px;
+        margin-right:5px;
+    }
+
+}
